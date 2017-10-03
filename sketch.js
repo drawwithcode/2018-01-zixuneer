@@ -2,7 +2,7 @@
 //By Lauren McCarthy, Casey Reas, and Ben Fry
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(800, 600);
   strokeWeight(2);
   ellipseMode(RADIUS);
 }
