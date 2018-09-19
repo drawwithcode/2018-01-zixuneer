@@ -7,15 +7,18 @@ function setup() {
 }
 
 function draw() {
-	background(204);
+	background(220);
 
 	//Neck
 	line(250, 285, 250, 345);
 
 	//Wheel
+	fill(200,160,220);
+	noStroke();
 	ellipse(250, 465, 70, 70);
 
 	//Body
+	fill(200,120,150,50);
 	rect(200, 325, 100, 140);
 
 	//Head
