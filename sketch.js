@@ -10,17 +10,31 @@ function draw() {
 	background(220);
 
 	//Neck
-	line(250, 285, 250, 345);
+	stroke(0);
+	line(250, 285, 250, 325);
+
+	//arms
+	stroke(150);
+	line(200,350,170,410);
+	line(300,350,330,410);
+
+	//Body
+	strokeWeight(2);
+	stroke(2525);
+	fill(random(100,220),random(120,250),random(150,250),90);
+	rect(200, 325, 100, 140);
 
 	//Wheel
-	fill(200,160,220);
+	fill(200,160,240,230);
 	noStroke();
 	ellipse(250, 465, 70, 70);
 
-	//Body
-	fill(200,120,150,50);
-	rect(200, 325, 100, 140);
-
 	//Head
+	fill(250);
 	ellipse(250, 240, 90, 90);
+
+	//eyes
+	fill(random(0,100),random(0,100),random(0,50));
+	ellipse(230,240,16,32);
+	ellipse(270,240,16,32);
 }
